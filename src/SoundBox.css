@@ -1,0 +1,25 @@
+.boxKeys{
+  width: 100%;
+  background: #f5f2f9;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.boxKeys .key{
+  text-align: center;
+  color: #544d4d;
+  background: rgba(255,255,255,0);
+  padding: 0 1em;
+  margin: 1em 0;
+  transition: .5s all ease;
+  border: 2px solid rgb(46,21,78);
+  border-radius: 15px;
+  width: 90px;
+  height: 130px;
+  box-sizing: content-box;
+}
+.boxKeys .key.playing{
+  background: rgba(255,255,255,1);
+  border: 2px solid rgb(75,178,239);
+}
