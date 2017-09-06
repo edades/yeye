@@ -8,10 +8,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     document.onkeydown = e => {
-      console.log(e);
+      // console.log(e);
       e = e || window.event;
       var key = e.which || e.keyCode;
-      console.log(this.refs);
+      // console.log(this.refs);
       this.refs.boxloop.getKey(key);
       this.refs.soundbox.getKey(key);
     } 

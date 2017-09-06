@@ -33,9 +33,10 @@ class SoundBox extends Component{
   }
   
   playSound(id, key){
-    console.log(id);
+    // console.log(id);
     sound = new Howl({
-      src: [`${id}.mp3`]
+      src: [`${id}.mp3`],
+      preload: true,
     });
     sound.play();
 

@@ -45,6 +45,7 @@ class LoopBox extends Component{
       autoplay: true,
       loop: true,
       volume: 0.8,
+      preload: true,
     });
 
     document.querySelectorAll('.loop .status').forEach( (lp) => lp.classList.remove('on') );
